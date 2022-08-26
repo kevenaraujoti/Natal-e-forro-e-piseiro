@@ -102,7 +102,121 @@ a {
     width: 350px;
     text-align: center;
   }
+
+  /** SECTIONS **/
+
+  .mari{
+    width: 100%;
+    height: 600px;
+    background-color: #121212;
+    display: flex;
+    border-top: 3px solid #fff;
+  }
+
+  .info{
+    width: 40%;
+    height: 600px;
+    background-image: url("../img/mari.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info2{
+    width: 40%;
+    height: 600px;
+    background-image: url("../img/tarcisioo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info3{
+    width: 40%;
+    height: 600px;
+    background-image: url("../img/limao.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .mari span{
+    color: black;
+    font-size: 2.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900; 
+    text-transform: uppercase;
+    padding-top: 300px;
+  }
+
+  .icones p{
+    color: rgb(194, 147, 47);
+    font-size: 2.0rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900; 
+    text-transform: uppercase;
+  }
+
+  .icones a{
+    display: flex;
+    justify-content: center;
+    font-size: 2.0rem;
+    padding-top: 15px;
+  }
+
+  .youtube{
+    width: 60%;
+    height: 600px;
+    background-color: #121212;
+  }
+
+  footer{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+  }
   /** Resposivo **/
+
+  @media (max-width: 1170px){
+    .mari{
+      width: 100%;
+      height: 1200px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .info{
+      width: 100%;
+      height: 600px;
+    }
+
+    .info2{
+      width: 100%;
+      height: 600px;
+    }
+
+    .info3{
+      width: 100%;
+      height: 600px;
+    }
+
+    .youtube{
+      width: 100%;
+      height: 600px;
+    }
+    
+  }
+
   
   @media (max-width: 999px) {
     body {
